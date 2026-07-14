@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemelisseJewel. — Designed to Shine. Made to Endure.</title>
+<meta name="description" content="GemelisseJewel. — exquisite rings, necklaces, earrings, bracelets and diamond sets crafted to celebrate life's most precious moments.">
+
+<!-- Google Fonts: Playfair Display (display) + Poppins (body/UI) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- ============ HEADER / NAVIGATION ============ -->
+<header class="site-header" id="site-header">
+  <nav class="navbar" aria-label="Primary">
+    <a href="#home" class="brand" aria-label="GemelisseJewel. — Home">
+      
+      <span class="brand-name">GemelisseJewel.</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link is-active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#products" class="nav-link">Products</a></li>
+      <li><a href="#contact" class="nav-link">Contact Us</a></li>
+      <li><a href="#privacy" class="nav-link">Privacy Policy</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search" aria-expanded="false" aria-controls="searchBar">
+        <svg viewBox="0 0 24 24" class="icon"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </button>
+      <a href="#" class="icon-btn" aria-label="My account">
+        <svg viewBox="0 0 24 24" class="icon"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+      </a>
+      <a href="#" class="icon-btn cart-btn" aria-label="Shopping cart, 0 items">
+        <svg viewBox="0 0 24 24" class="icon"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Expandable search bar -->
+  <div class="search-bar" id="searchBar">
+    <div class="search-bar-inner">
+      <svg viewBox="0 0 24 24" class="icon"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="search" placeholder="Search rings, necklaces, earrings…" aria-label="Search products">
+      <button class="icon-btn" id="searchClose" aria-label="Close search">&times;</button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <!-- ============ HOME / HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <p class="eyebrow"><span class="facet" aria-hidden="true">◈</span> GemelisseJewel.</p>
+      <h1 class="hero-title">Designed to Shine.<br>Made to Endure.</h1>
+      <p class="hero-subtitle">Discover exquisite jewelry collections designed to celebrate beauty, love, and life's most precious moments.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-gold">Shop Now</a>
+        <a href="#about" class="btn btn-outline">Explore Collection</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"><span>◈</span></div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <img src="img/about.png" alt="Interior of the GemelisseJewel. jewelry showroom with lit glass display cases" loading="lazy">
+        <div class="about-media-frame" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="eyebrow">◈ About GemelisseJewel</p>
+<h2 class="section-title">Designed to Shine. Made to Endure.</h2>
+
+<div class="about-block">
+  <h3>Our Story</h3>
+  <p>At <strong>GemelisseJewel</strong>, we believe every piece of jewellery should reflect timeless beauty and exceptional craftsmanship. Our collections are thoughtfully designed using premium materials and meticulous attention to detail, creating elegant pieces that celebrate life's most meaningful moments.</p>
+</div>
+
+<div class="about-columns">
+  <div class="about-block">
+    <h3>Our Mission</h3>
+    <p>To create beautifully crafted jewellery that inspires confidence, celebrates special occasions, and becomes a treasured part of every customer's journey.</p>
+  </div>
+
+  <div class="about-block">
+    <h3>Our Vision</h3>
+    <p>To be recognized as a trusted destination for luxury jewellery, combining timeless design, exceptional quality, and enduring elegance in every collection.</p>
+  </div>
+</div>
+
+        <div class="about-block">
+          <h3>Why Choose GemelisseJewel.</h3>
+          <ul class="why-list">
+            <li><span class="facet" aria-hidden="true">◈</span> Ethically sourced diamonds and certified gemstones</li>
+            <li><span class="facet" aria-hidden="true">◈</span> Handcrafted in small batches, never mass-produced</li>
+            <li><span class="facet" aria-hidden="true">◈</span> Lifetime polishing and resizing service</li>
+            <li><span class="facet" aria-hidden="true">◈</span> Complimentary certificate of authenticity with every piece</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"><span>◈</span></div>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section id="products" class="products section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">◈ The Collection</p>
+        <h2 class="section-title">Featured Pieces</h2>
+        <p class="section-lede">Every creation is thoughtfully crafted to celebrate life's most meaningful moments with lasting beauty.</p>
+      </div>
+
+      <!-- Category filter -->
+      <div class="filter-bar reveal" role="tablist" aria-label="Filter products by category">
+        <button class="filter-chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-chip" data-filter="rings" role="tab" aria-selected="false">Rings</button>
+        <button class="filter-chip" data-filter="necklaces" role="tab" aria-selected="false">Necklaces</button>
+        <button class="filter-chip" data-filter="earrings" role="tab" aria-selected="false">Earrings</button>
+        <button class="filter-chip" data-filter="bracelets" role="tab" aria-selected="false">Bracelets</button>
+        <button class="filter-chip" data-filter="diamond-sets" role="tab" aria-selected="false">Diamond Sets</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Product cards are injected via JavaScript from PRODUCTS data (see script.js) -->
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"><span>◈</span></div>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact section">
+    <div class="container contact-grid">
+      <div class="contact-form-wrap reveal">
+        <p class="eyebrow">◈ Get in Touch</p>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-lede">Have a question about a piece, a custom order, or an existing purchase? Send us a message and our concierge team will reply within one business day.</p>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-field">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cf-phone">Phone Number</label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="+1 (___) ___-____">
+            </div>
+            <div class="form-field">
+              <label for="cf-subject">Subject</label>
+              <input type="text" id="cf-subject" name="subject" placeholder="What is this regarding?" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Tell us how we can help…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="contact-info reveal">
+        <div class="info-card">
+          <h3><span class="facet" aria-hidden="true">◈</span> Visit Our Showroom</h3>
+          <p>42 Mercer Street<br>New York, NY 10012<br>United States</p>
+        </div>
+        <div class="info-card">
+          <h3><span class="facet" aria-hidden="true">◈</span> Phone</h3>
+          <p><a href="tel:+12125550142">+1 (212) 555-0142</a></p>
+        </div>
+       
+        <div class="info-card">
+          <h3><span class="facet" aria-hidden="true">◈</span> Business Hours</h3>
+          <p>Mon – Fri: 10:00 AM – 7:00 PM<br>Saturday: 11:00 AM – 6:00 PM<br>Sunday: Closed</p>
+        </div>
+
+       
+
+        <div class="social-icons" aria-label="GemelisseJewel. on social media">
+          <a href="#" aria-label="GemelisseJewel. on Instagram" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+          <a href="#" aria-label="GemelisseJewel. on Facebook" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+          <a href="#" aria-label="GemelisseJewel. on Pinterest" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><path d="M8 21l4-13"></path><circle cx="12" cy="12" r="10"></circle><path d="M9.5 14.5c-1-4 1-8 4-8 2.5 0 4 1.5 4 4 0 3-1.5 6-4 6-1 0-1.5-.5-2-1"></path></svg></a>
+          <a href="#" aria-label="GemelisseJewel. on X" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><line x1="4" y1="4" x2="20" y2="20"></line><line x1="20" y1="4" x2="4" y2="20"></line></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"><span>◈</span></div>
+
+  <!-- ============ PRIVACY POLICY ============ -->
+  <section id="privacy" class="privacy section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">◈ Legal</p>
+        <h2 class="section-title">Privacy Policy</h2>
+        <p class="section-lede">Last updated: January 2026. Your trust matters to us — here is exactly how we handle your information.</p>
+      </div>
+
+      <div class="privacy-grid reveal">
+        <article class="privacy-card">
+          <h3>Information Collection</h3>
+          <p>We collect information you provide directly, such as your name, email, shipping address, and payment details when you place an order, create an account, or contact our concierge team.</p>
+        </article>
+        <article class="privacy-card">
+          <h3>Data Usage</h3>
+          <p>Your information is used to process orders, personalize your shopping experience, send order updates, and — only with your consent — share news about new collections.</p>
+        </article>
+        <article class="privacy-card">
+          <h3>Cookies Policy</h3>
+          <p>We use cookies to remember your cart, preferences, and login state, and to understand how visitors use our site so we can improve it. You can disable cookies in your browser settings at any time.</p>
+        </article>
+        <article class="privacy-card">
+          <h3>Security</h3>
+          <p>All payment and personal data is encrypted in transit and at rest. We follow industry-standard security practices and never store full card numbers on our servers.</p>
+        </article>
+        <article class="privacy-card">
+          <h3>Third-Party Services</h3>
+          <p>We work with trusted payment processors, shipping carriers, and analytics providers who only access the data necessary to perform their service, under strict confidentiality agreements.</p>
+        </article>
+        <article class="privacy-card">
+          <h3>User Rights</h3>
+          <p>You may request access to, correction of, or deletion of your personal data at any time, and may opt out of marketing communications with a single click.</p>
+        </article>
+        <article class="privacy-card privacy-card-wide">
+          <h3>Contact Information</h3>
+          <p>Questions about this policy or your data can be directed to our privacy team at <a href="mailto:privacy@GemelisseJewel..com">privacy@GemelisseJewel..com</a> or by mail to 42 Mercer Street, New York, NY 10012.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-name">GemelisseJewel.</span>
+      </a>
+      <p>Designed to Shine. Made to Endure.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="GemelisseJewel. on Instagram" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+        <a href="#" aria-label="GemelisseJewel. on Facebook" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        <a href="#" aria-label="GemelisseJewel. on Pinterest" class="icon-btn"><svg viewBox="0 0 24 24" class="icon"><path d="M8 21l4-13"></path><circle cx="12" cy="12" r="10"></circle><path d="M9.5 14.5c-1-4 1-8 4-8 2.5 0 4 1.5 4 4 0 3-1.5 6-4 6-1 0-1.5-.5-2-1"></path></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h4>Customer Support</h4>
+      <ul>
+        <li><a href="#contact">Shipping &amp; Returns</a></li>
+        <li><a href="#contact">Ring Sizing Guide</a></li>
+        <li><a href="#contact">Care Instructions</a></li>
+        <li><a href="#contact">Track My Order</a></li>
+        <li><a href="#contact">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-newsletter">
+      <h4>Newsletter</h4>
+      <p>Be first to know about new collections and private previews.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <label for="nl-email" class="sr-only">Email address</label>
+        <input type="email" id="nl-email" placeholder="Enter your email" required>
+        <button type="submit" aria-label="Subscribe">Subscribe</button>
+      </form>
+      <p class="form-status" id="newsletterStatus" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> GemelisseJewel. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" class="icon"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+</button>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
